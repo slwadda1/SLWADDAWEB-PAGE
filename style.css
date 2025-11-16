@@ -381,6 +381,32 @@ img {
     text-align: center; /* center below image */
     color: #ffffff;
 }
+/* ================== Search Box ================== */
+.search-container {
+  width: 350px;
+  margin: 20px auto; /* මැදින් align වෙනවා */
+  position: relative;
+  text-align: center; /* remove right alignment */
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px 15px 10px 15px; /* remove extra right padding */
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  font-size: 17px;
+}
+
+.search-container input::placeholder {
+  color: #ccc;
+}
+
+.search-container .search-icon {
+  display: none; /* remove the icon if not needed */
+}
+
 
 
 
